@@ -7,7 +7,8 @@ Terdapat sebuah function balikKalimat(kalimat) dengan parameter kalimat. Functio
 ```
 function balikKalimat(kalimat) {
   /*
-    Pertama kita pisahkan perhuruf dengan split(), lalu balik setiap hurufnya dengan reverse(), Kemudian di gabungkan kembali       dengan join
+    Pertama kita pisahkan perhuruf dengan split(), lalu balik setiap hurufnya dengan reverse(), 
+    Kemudian di gabungkan kembali dengan join
   */
   return kalimat.split('').reverse().join('');
 
